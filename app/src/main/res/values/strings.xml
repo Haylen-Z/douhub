@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">douhub</string>
+    <string name="title_activity_main">douhub</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_hot">热门</string>
+    <string name="menu_movie">电影</string>
+    <string name="menu_tv">电视剧</string>
+    <string name="menu_novel">小说</string>
+    <string name="menu_about">源码</string>
+    <string name="menu_refresh">刷新</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_copy_link">复制链接</string>
+    <string name="menu_open_with">浏览器打开</string>
+    <string name="copy_done">已复制到剪贴板</string>
+</resources>
