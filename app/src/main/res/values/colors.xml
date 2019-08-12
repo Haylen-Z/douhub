@@ -5,4 +5,6 @@
     <color name="colorAccent">#A2CE6C</color>
     <color name="menuTextColor">#818181</color>
     <color name="rating">#FCE75A</color>
+
+    <color name="black_overlay">#66000000</color>
 </resources>

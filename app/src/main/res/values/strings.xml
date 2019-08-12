@@ -18,4 +18,8 @@
     <string name="menu_copy_link">复制链接</string>
     <string name="menu_open_with">浏览器打开</string>
     <string name="copy_done">已复制到剪贴板</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

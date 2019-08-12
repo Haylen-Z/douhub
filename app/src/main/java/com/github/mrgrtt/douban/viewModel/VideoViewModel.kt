@@ -1,6 +1,5 @@
 package com.github.mrgrtt.douban.viewModel
 
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.chad.library.adapter.base.BaseQuickAdapter
@@ -11,7 +10,7 @@ import com.github.mrgrtt.douban.network.DoubanNetwork
 /**
  * Created by mrgrtt on 2019.8.9
  */
-class VideoViewModel(val type: String, val tag: String): ListViewModel() {
+class VideoViewModel(val type: String, val tag: String): BaseListViewModel() {
     var page_start = 0
     val page_limit = 21
     var start = true

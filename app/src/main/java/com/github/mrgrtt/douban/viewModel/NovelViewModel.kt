@@ -1,6 +1,5 @@
 package com.github.mrgrtt.douban.viewModel
 
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.github.mrgrtt.douban.model.Novel
@@ -10,7 +9,7 @@ import com.github.mrgrtt.douban.ui.adapter.NovelAdapter
 /**
  * Created by mrgrtt on 2019.8.10
  */
-class NovelViewModel(val sort: String): ListViewModel() {
+class NovelViewModel(val sort: String): BaseListViewModel() {
     var page = 1
     var start = true
 

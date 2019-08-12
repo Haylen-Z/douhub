@@ -3,7 +3,7 @@
 <layout xmlns:bind="http://schemas.android.com/apk/res-auto">
 
     <data>
-        <variable name="viewModel" type="com.github.mrgrtt.douban.viewModel.ListViewModel"/>
+        <variable name="viewModel" type="com.github.mrgrtt.douban.viewModel.BaseListViewModel"/>
     </data>
 
     <FrameLayout
