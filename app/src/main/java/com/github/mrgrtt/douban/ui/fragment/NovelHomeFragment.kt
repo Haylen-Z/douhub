@@ -14,7 +14,7 @@ import kotlinx.android.synthetic.main.tab_view_pager.*
  * Create by mrgrtt on 2019.8.9
  */
 class NovelHomeFragment : Fragment() {
-    val pageLimit = 3
+    val pageLimit = 4
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

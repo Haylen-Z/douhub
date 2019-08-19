@@ -14,10 +14,7 @@ class VideoHomeViewModel(val type: String): BaseTabPagerViewModel() {
     override fun loadTitles() {
         launch({
             showErrorPage.value = false
-            super.titles.value =
-                DoubanNetwork.getTags(type).filter {
-                    !(it.equals("热门") or it.equals("可播放"))
-                }
+            super.titles.value = DoubanNetwork.getTags(type)
         }, {
             showErrorPage.value = true
         })
